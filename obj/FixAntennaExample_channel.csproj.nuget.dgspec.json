@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/riddermark/Riddermark/Console/FixAntennaExample_channel/FixAntennaExample_channel.csproj": {}
+  },
+  "projects": {
+    "/home/riddermark/Riddermark/Console/FixAntennaExample_channel/FixAntennaExample_channel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/riddermark/Riddermark/Console/FixAntennaExample_channel/FixAntennaExample_channel.csproj",
+        "projectName": "FixAntennaExample_channel",
+        "projectPath": "/home/riddermark/Riddermark/Console/FixAntennaExample_channel/FixAntennaExample_channel.csproj",
+        "packagesPath": "/home/riddermark/.nuget/packages/",
+        "outputPath": "/home/riddermark/Riddermark/Console/FixAntennaExample_channel/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/riddermark/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Epam.FixAntenna.NetCore": {
+              "target": "Package",
+              "version": "[1.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
