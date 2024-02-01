@@ -41,6 +41,7 @@ public class MyConsumer : IFixSessionListener
     }
     private async Task OnNewMessageAsync(FixMessage fixMessage)
     {
+        // I get an error here at line 45 with production code:
         await _fixChannel.Writer.WriteAsync(fixMessage, _ctSource.Token);		
     }
     public async Task StartConsuming()
